@@ -27,7 +27,7 @@ while (1) {
     }
 
     try {
-        let question = parseInt(input(""))
+        let question = parseInt(input("Insira o numero da escolha: "))
         database()
         switch (question) {
             case 1:
